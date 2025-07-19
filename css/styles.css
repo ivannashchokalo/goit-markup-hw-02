@@ -44,12 +44,15 @@ body{
     color:  #4d5ae5;
 }
 
-.piece-logo{
-    color: #2e2f42;
-}
+
 
 
 /* ---HEADER--- */
+
+
+.piece-logo-header{
+    color: #2e2f42;
+}
 
 
 .nav-list-link{
@@ -188,6 +191,11 @@ body{
 
 
 /* --FOOTER--- */
+
+
+.piece-logo-footer{
+    color: #f4f4fd;
+}
 
 .footer{
     background-color: #2e2f42;
