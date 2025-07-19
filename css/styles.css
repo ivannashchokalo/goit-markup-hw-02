@@ -1,19 +1,6 @@
 :root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
-
-  	--iris: #4d5ae5;
-	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
-	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
-	--cornflower: #e7e9fc;
-	--cloud: #f4f4fd;
-	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
-	--dairy: #fcfcfc;
 }
 
 a{
@@ -24,8 +11,14 @@ ul,ol{
     list-style: none;
 }
 
+button{
+    cursor: pointer;
+}
+
 body{
     font-family: var(--font-family);
+    color: #434455;
+    background-color: #fff;
 }
 
 
@@ -34,24 +27,25 @@ body{
 .second-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    text-transform: capitalize;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .logo{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color:  #4d5ae5;
 }
 
 .piece-logo{
-    color: var(--iris);
+    color: #2e2f42;
 }
 
 
@@ -63,40 +57,29 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .nav-list-link:hover,
 .nav-list-link:focus{
-    color: var(--ocean);
+    color: #404bbf;
 }
 
-.address-email{
+.address{
     font-style: normal;
+}
+
+.address-list-link{
     font-weight: 400;
     font-size: 16px;    
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color:  #434455;
 }
 
-.address-email:hover,
-.address-email:focus{
-    color: var(--ocean);
-}
-
-.address-phone-number{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;    
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
-
-.address-phone-number:hover,
-.address-phone-number:focus{
-    color: var(--ocean);
+.address-list-link:hover,
+.address-list-link:focus{
+    color: #404bbf;
 }
 
 
@@ -105,16 +88,16 @@ body{
 
 
 .hero{
-    background-color: var(--navy-blue);;
+    background-color: #2e2f42;
 }
 
 .main-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #fff;
 }
 
 .modal-btn{
@@ -122,15 +105,14 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #fff;
 
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--iris);
+    background: #4d5ae5;
 }
 
 .modal-btn:hover,
 .modal-btn:focus{
-    background: var(--ocean);
+    background:  #404bbf;
 }
 
 
@@ -142,7 +124,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .benefits-list-text{
@@ -150,13 +132,20 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
 
 
 /* ---TEAM--- */
 
+.team{
+    background-color: #F4F4FD;
+}
+
+.team-list-item{
+    background-color: #fff;
+}
 
 .team-list-name{
     font-weight: 500;
@@ -164,7 +153,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .team-list-position{
@@ -173,7 +162,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--slate);
+    color:  #434455;
 }
 
 
@@ -185,7 +174,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color:  #2e2f42 ;
 }
 
 .portfolio-list-description{
@@ -193,12 +182,16 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color:  #434455;
 }
 
 
 
 /* --FOOTER--- */
+
+.footer{
+    background-color: #2e2f42;
+}
 
 
 .footer-text{
@@ -206,5 +199,5 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #f4f4fd;
 }
